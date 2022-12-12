@@ -20,4 +20,10 @@ public class CalculatorTest {
     int sum = calculator.multiplication(456,99);
     assertEquals(45144, sum);
   }
+  @Test
+  public void testDiv() {
+    Calculator calculator = new Calculator();
+    int sum = calculator.division(12345,15);
+    assertEquals(823, sum);
+  }
 }
