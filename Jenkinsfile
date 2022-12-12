@@ -4,7 +4,7 @@ stages {
         stage('git clone') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/lianglun0125/專案名稱.git'
+                    url: 'https://github.com/lianglun0125/jenkins.git'
             }  
             post {
                 failure {
